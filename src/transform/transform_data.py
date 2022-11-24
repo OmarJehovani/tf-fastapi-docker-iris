@@ -1,6 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 
-
 class MissingIndicator(BaseEstimator, TransformerMixin):
     """This class is a custom transformer used to identify missing
     values in a pandas dataframe.
